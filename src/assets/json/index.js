@@ -1,0 +1,46 @@
+export const CountryList = [
+    { id: 235, name: "United States" },
+    { id:64, name: "Ecuador" },
+    { id:105, name: "India" },
+    { id:203, name: "Slovakia" },
+    { id:122, name:"South Korea" },
+    { id:32, name: "Brazil" },
+    { id:50, name: "Colombia" },
+    { id:175, name: "Peru" },
+    { id:69, name: "Spain" },
+    { id:192, name: "Russian Federation" },
+    { id:114, name: "Japan" },
+    { id:179, name: "Pakistan" },
+    { id:173, name: "Oman" },
+    { id:2, name: "United Arab Emirates" },
+    { id:133, name: "Lithuania" }];
+
+export const stateList = [
+    { id:45, name: "Utah (US)" },
+    { id:135, name: "Pernambuco (BR)" },
+    { id:50, name: "Wisconsin (US)" },
+    { id:37, name: "Mississippi (US)"},
+    { id:15, name: "Indiana (US)" },
+    { id:44, name: "Texas (US)" },
+    { id:5, name: "California (US)" },
+    { id:22, name: "Nebraska (US)" },
+    { id:10, name: "Florida (US)" },
+    { id:267, name: "Kanagawa (JP)" },
+    { id:9, name: "District of Columbia (US)" }];
+
+export const Users = [
+    { id:67, name: "Dave Black" },
+    { id:192, name: "Edgar Chavez" },
+    { id:288, name: "George Haile" },
+    { id:208, name: "Primoz Kuzman" },
+    { id:119, name: "Johnny Ha" },
+    { id:216, name: "Eduardo Mune" },
+    { id:221, name: "Francisco Aguayo" },
+    { id:219, name: "Dan Tarczon" },
+    { id:295, name: "Operations" },
+    { id:113, name: "Tihon Makushev" },
+    { id:214, name: "David Medina" },
+    { id:110, name: "Sachin Agnihotri" },
+    { id:268, name: "Intercompany" },
+    { id:184, name: "Emad Qawasmi" },
+    { id:109, name: "Tarek Ashouri" }];

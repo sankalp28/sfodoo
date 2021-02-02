@@ -1,0 +1,128 @@
+/* Scss Document */
+
+$bg-color: #f8f8f8;
+$white: #ffffff;
+$black: #000000;
+$light-color: #40c1f2;
+$blue-color: #079bd4;
+$dark-blue: #0578a3;
+
+$text-color: #626262;
+$primary-color: #036b92;
+
+$font-label: #036b92;
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.light-blue {
+  background: $light-color;
+}
+
+.blue-color {
+  background: $blue-color;
+}
+/***** Icon *****/
+.icon {
+  display: inline-block;
+}
+.icon-sync-3,
+.icon-field-mapping,
+.icon-compare-record,
+.icon-logout,
+.icon-outlined-circle,
+.icon-edit,
+.icon-mobile-menu,
+.icon-close,
+.icon-success,
+.icon-delete-red,
+.icon-user,
+.icon-password,
+.icon-filter {
+  content: "";
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.icon-sync-3:before {
+  content: url("icon/sync-btn-dark.svg");
+}
+
+.icon-field-mapping:before {
+  content: url("icon/sync_alt-dark.svg");
+}
+
+.icon-compare-record:before {
+  content: url("icon/compare-records-dark.svg");
+}
+
+.icon-logout:before {
+  content: url("icon/logout-dark.svg");
+}
+
+.icon-outlined-circle:before {
+  content: url("icon/outlined-circle-dark.svg");
+}
+
+.icon-edit:before {
+  content: url("icon/edit.svg");
+}
+
+.icon-mobile-menu:before {
+  content: url("icon/menu.svg");
+}
+
+.icon-close:before {
+  content: url("icon/close-white.svg");
+}
+
+.icon-success:before {
+  content: url("icon/sucess.svg");
+}
+
+.icon-delete-red:before {
+  content: url("icon/delete-dark.svg");
+}
+
+.icon-user:before {
+  content: url("icon/user.svg");
+}
+
+.icon-password:before {
+  content: url("icon/password.svg");
+}
+
+.icon-log {
+  content: "";
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.icon-log:before {
+  content: url(icon/log.svg);
+}
+.left-menu-section nav ul li a:hover .icon-log:before,
+.left-menu-section nav ul li a.active .icon-log:before {
+  content: url(icon/log-white.svg);
+}
+
+.log-details .log-details-row .log-details-col .mystyle2 {
+  background: url(icon/arrow-down.svg);
+}
+.log-details .log-details-row .log-details-col .arrow-right {
+  background: url(icon/arrow-right.svg);
+}
+.log-details .log-details-row .log-details-col .arrow-down {
+  background: url(icon/arrow-down.svg);
+}

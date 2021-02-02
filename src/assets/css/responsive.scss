@@ -1,0 +1,233 @@
+/* Scss Document */
+
+@media (max-width:480px) {
+	.setup-section {
+		.title-block {
+			text-align: center;
+			.sec-title {
+				display: block;
+			}
+			.icon-sync {
+				transform: rotate(90deg);
+				width: 45px;
+				height: 45px;
+				margin: 10px 0;
+			}
+		}
+	}
+	.setupform-section {
+		.setup-form {
+			.form {
+				.form-row {
+					flex-direction: column;
+					&:before {
+						content: '';
+						width: 50px;
+						height: 54px;
+						border-radius: 10px;
+						border: solid 1px #eee;
+						border-left: none;
+						position: absolute;
+						z-index: 1;
+						right: 0;
+						transform: translate(0,50%);
+						
+					}
+					input, select {
+						width: auto !important;
+						z-index: 99;
+					}
+					.icon-sync-2 {
+						width: 20px;
+						margin: 6px auto 0;
+					}
+					.icon-delete {
+						content: '';
+						position: relative;
+						background: none;
+						border-radius: 50px;
+						width: auto;
+						height: auto;
+						text-align: center;
+						line-height: 22px;
+						margin-top: 4px;
+						right: auto;
+						text-align: right;
+						font-size: 13px;
+						color: red;
+						&:before {
+							content: 'Delete';
+						}
+					}	
+				}
+			}
+		}
+	}
+}
+
+@media (min-width:576px) {
+	.container {
+		max-width: 540px
+	}
+}
+
+@media (max-width:575px) {
+	.setup-section {
+		.title-block {
+			.sec-title {
+				font-size: 28px !important;
+			}
+		}
+	}
+}
+
+@media (min-width:768px) {
+	.container {
+		max-width: 720px
+	}
+}
+
+@media (max-width:767px) {
+	.setupform-section {
+		.setup-form {
+			width: 100%;
+		}
+	}
+}
+
+@media (min-width:992px) {
+	.container {
+		max-width: 960px
+	}
+}
+
+@media (max-width:991px) {
+	.define-rule {
+		.define-rule__content{
+			.rule-row {
+				select {
+					width: 130px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width:1200px) {
+	.container {
+		max-width: 1140px
+	}
+	.left-menu-section {
+		.logo {
+			i.icon {
+				display: none;
+			}
+		}
+	}
+	.mobile-menu {
+		display: none;
+	}
+}
+
+@media (max-width:1199px) {
+	.left-menu-section {
+	.logo {
+			i.icon {
+				position: absolute;
+				right: 5px;
+				top: 5px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.left-menu-section {
+		z-index: 9999;
+		display: none;
+	}
+		
+	.content-area {
+		margin-left: 0px;
+		.content-wrapper {
+			.router-view {
+				.sec-title {
+					h1 {
+						padding-left: 50px;
+					}
+				}
+				.setup-form {
+					.sec-title {
+						h1 {
+							padding-left: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.mapping-field {
+		.setup-form {
+			.form {
+				.form-wrapper {
+					width: 90%;
+					margin: auto;
+					padding: 20px 0;
+				}
+			}
+		}
+	}
+	
+}
+
+@media (max-width:576px) {
+	.login-page {
+		.login-screen {
+			width: 90%;
+		}
+	}
+	.modal-sm, .modal-md, .modal-lg {
+		width: 80%;
+	}
+
+}
+
+@media (max-width:767px) and (min-width:575px) {
+	.login-page {
+		.login-screen {
+			width: 70%;
+		}
+	}
+	.modal-sm, .modal-md, .modal-lg {
+		width: 60%;
+	}
+}
+
+@media (max-width:991px) and (min-width:768px) {
+	.login-page {
+		.login-screen {
+			width: 60%;
+		}
+	}
+	.modal-sm, .modal-md, .modal-lg {
+		width: 70%;
+	}
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+	.login-page {
+		.login-screen {
+			width: 40%;
+		}
+	}
+	.modal-sm {
+		width: 40%;
+	}
+
+	.modal-md {
+		width: 35%;
+	}
+
+	.modal-lg {
+		width: 70%;
+	}
+}
