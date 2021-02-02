@@ -3,5 +3,5 @@ FROM nginx:latest as main
 COPY conf/default.conf /etc/nginx/conf.d/
 
 FROM main
-RUN mkdir /usr/share/nginx/html/sfodo
-COPY sfodo/. /usr/share/nginx/html/sfodo/
+RUN mkdir /usr/share/nginx/html/dist
+COPY dist/. /usr/share/nginx/html/dist/
